@@ -1,0 +1,136 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+  color: #6b6f6c;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #6b6f6c;
+}
+
+::-ms-input-placeholder {
+  color: #6b6f6c;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  font-weight: 600;
+  color: #393c3a;
+  font-size: 46px;
+}
+.container .form {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.container .form-input {
+  width: 450px;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 20px;
+  text-indent: 24px;
+}
+.container .form-button {
+  width: 60px;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #19b72d;
+  color: white;
+  border-radius: 100%;
+  transition: all 0.4s;
+}
+.container .form-button:hover {
+  background-color: #22cc38;
+}
+.container .form-button i {
+  font-size: 27px;
+  color: #ffffff;
+}
+.container .form .filter {
+  height: 100%;
+}
+.container .form .filter select {
+  height: 100%;
+  outline: 0;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  font-size: 22px;
+  text-indent: 11px;
+  color: #555556;
+  cursor: pointer;
+}
+.container .list {
+  width: 100%;
+  margin-top: 5%;
+}
+.container .list-item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eae6e6;
+  opacity: 1;
+  transition: all 0.5s;
+  padding: 0 17px;
+  background-color: white;
+}
+.container .list-item p {
+  max-width: 570px;
+  line-height: 1.8;
+  font-size: 19px;
+  color: #6c6b6c;
+}
+.container .list-item.deleted {
+  opacity: 0;
+}
+.container .list-item.checked {
+  opacity: 0.6;
+}
+.container .list-item.checked p {
+  text-decoration: line-through;
+}
+.container .list-actions button {
+  width: 50px;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  color: white;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.container .list-actions button:first-child {
+  background-color: #19b72d;
+  margin-right: 9px;
+  transition: all 0.4s;
+}
+.container .list-actions button:first-child:hover {
+  background-color: #22cc38;
+}
+.container .list-actions button:last-child {
+  background-color: #ff3737;
+  transition: all 0.4s;
+}
+.container .list-actions button:last-child:hover {
+  background-color: #f86161;
+}
+.container .list-actions i {
+  pointer-events: none;
+}
