@@ -1,4 +1,4 @@
-# Pure.js Todolist Uyuglaması
+# Pure.js Todolist Uygulaması
 Pure.js ile yaptığım ve localStorage ile süslediğim todolist uygulaması. 
 
 <br>
